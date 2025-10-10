@@ -48,7 +48,7 @@ If you find our repo useful for your research, please consider citing our paper:
 ```bibtex
 
 @misc{zou2025ummmu,
-  title={CUni-MMMU: A Massive Multi-discipline Multimodal Unified Benchmark},
+  title={Uni-MMMU: A Massive Multi-discipline Multimodal Unified Benchmark},
   author={Kai Zou and Ziqi Huang and Yuhao Dong},
   year={2025},
   eprint={},
