@@ -23,7 +23,7 @@
      + corresponding authors
 </div>
 
-
+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
 
 
 <a name="overview"></a>
@@ -47,11 +47,15 @@ Unified multimodal models aim to jointly enable visual understanding and generat
 If you find our repo useful for your research, please consider citing our paper:
 
 ```bibtex
-@InProceedings{zhang2024evaluationagent,
-    title = {Evaluation Agent: Efficient and Promptable Evaluation Framework for Visual Generative Models},
-    author = {Zhang, Fan and Tian, Shulin and Huang, Ziqi and Qiao, Yu and Liu, Ziwei},
-    booktitle={Annual Meeting of the Association for Computational Linguistics (ACL), 2025},
-    year = {2024}
+
+@misc{zou2025ummmu,
+  title={CUni-MMMU: A Massive Multi-discipline Multimodal Unified Benchmark},
+  author={Kai Zou and Ziqi Huang and Yuhao Dong},
+  year={2025},
+  eprint={},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={}
 }
 ```
 
