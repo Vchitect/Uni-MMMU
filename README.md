@@ -83,4 +83,10 @@ Our related projects: [VBench](https://github.com/Vchitect/VBench), [Awesome Eva
     journal={arXiv preprint arXiv:2503.21755},
     year={2025}
 }
+@InProceedings{zhang2024evaluationagent,
+    title = {Evaluation Agent: Efficient and Promptable Evaluation Framework for Visual Generative Models},
+    author = {Zhang, Fan and Tian, Shulin and Huang, Ziqi and Qiao, Yu and Liu, Ziwei},
+    booktitle={Annual Meeting of the Association for Computational Linguistics (ACL), 2025},
+    year = {2024}
+}
 ```
