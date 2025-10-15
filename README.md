@@ -37,7 +37,53 @@ Unified multimodal models aim to jointly enable visual understanding and generat
 
 
 
+<a name="installation"></a>
+## :hammer: Installation
 
+1. Clone the repository.
+
+```bash
+git clone https://github.com/Vchitect/Uni-MMMU.git
+cd Uni-MMMU
+```
+
+2. Install the environment.
+```bash
+conda update -n base -c defaults conda
+conda create -n ummmu python==3.10 -y
+conda activate ummmu
+
+pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu118
+pip install -r requirements.txt
+```
+
+3. Download the dataset.
+```bash
+git clone https://huggingface.co/datasets/Vchitect/Uni-MMMU-Eval
+cd Uni-MMMU-Eval
+tar -xvf data.tar -C /path/to/Uni-MMMU
+```
+
+
+<a name="usage"></a>
+## Usage
+
+
+### Sampling
+
+- Please refer to ./sample_code_example for details.
+- All sampled data will be in ./outputs/model_name .
+
+
+### Evaluation
+
+
+#### Command
+
+```
+python eval_ummmu.py --model_name model_to_be_eval
+```
+- Note: This evaluation requires Qwen2.5-VL-72B and Qwen3-32B as evaluators. We recommend running this on a system with at least A100 80GB GPUs to ensure sufficient memory and performance.
 
 
 
