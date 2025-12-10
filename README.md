@@ -93,14 +93,11 @@ If you find our repo useful for your research, please consider citing our paper:
 
 ```bibtex
 
-@misc{zou2025unimmmumassivemultidisciplinemultimodal,
-      title={Uni-MMMU: A Massive Multi-discipline Multimodal Unified Benchmark}, 
-      author={Kai Zou and Ziqi Huang and Yuhao Dong and Shulin Tian and Dian Zheng and Hongbo Liu and Jingwen He and Bin Liu and Yu Qiao and Ziwei Liu},
-      year={2025},
-      eprint={2510.13759},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2510.13759}, 
+@article{zou2025uni,
+  title={Uni-mmmu: A massive multi-discipline multimodal unified benchmark},
+  author={Zou, Kai and Huang, Ziqi and Dong, Yuhao and Tian, Shulin and Zheng, Dian and Liu, Hongbo and He, Jingwen and Liu, Bin and Qiao, Yu and Liu, Ziwei},
+  journal={arXiv preprint arXiv:2510.13759},
+  year={2025}
 }
 ```
 
